@@ -1,0 +1,1 @@
+/home/toni/nova_ws/build/nova_description/ament_cmake_core/nova_descriptionConfig-version.cmake

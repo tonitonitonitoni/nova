@@ -1,0 +1,2 @@
+Invoking command in '/home/toni/nova_ws/build/nova_gazebo': /usr/bin/cmake /home/toni/nova_ws/src/nova_gazebo -DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_gazebo
+Invoked command in '/home/toni/nova_ws/build/nova_gazebo' returned '1': /usr/bin/cmake /home/toni/nova_ws/src/nova_gazebo -DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_gazebo

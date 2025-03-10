@@ -1,0 +1,23 @@
+[0.017s] Invoking command in '/home/toni/nova_ws/build/nova_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_description -- -j12 -l12
+[0.050s] Invoked command in '/home/toni/nova_ws/build/nova_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_description -- -j12 -l12
+[0.057s] Invoking command in '/home/toni/nova_ws/build/nova_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_description
+[0.063s] -- Install configuration: ""
+[0.063s] -- Execute custom install script
+[0.063s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/urdf/nova_camera.urdf
+[0.064s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/urdf/nova_gps.urdf
+[0.064s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/ament_index/resource_index/package_run_dependencies/nova_description
+[0.064s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/ament_index/resource_index/parent_prefix_path/nova_description
+[0.064s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/ament_prefix_path.sh
+[0.065s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/path.sh
+[0.065s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/path.dsv
+[0.065s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.bash
+[0.066s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.sh
+[0.066s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.zsh
+[0.066s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.dsv
+[0.066s] -- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/package.dsv
+[0.075s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/ament_index/resource_index/packages/nova_description
+[0.075s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/cmake/nova_descriptionConfig.cmake
+[0.075s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/cmake/nova_descriptionConfig-version.cmake
+[0.076s] -- Up-to-date symlink: /home/toni/nova_ws/install/nova_description/share/nova_description/package.xml
+[0.079s] Invoked command in '/home/toni/nova_ws/build/nova_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_description

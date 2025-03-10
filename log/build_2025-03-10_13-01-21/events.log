@@ -1,0 +1,614 @@
+[0.000000] (-) TimerEvent: {}
+[0.001022] (nova_bringup) JobQueued: {'identifier': 'nova_bringup', 'dependencies': OrderedDict()}
+[0.001072] (nova_description) JobQueued: {'identifier': 'nova_description', 'dependencies': OrderedDict()}
+[0.001091] (nova_gazebo) JobQueued: {'identifier': 'nova_gazebo', 'dependencies': OrderedDict()}
+[0.001107] (nova_bringup) JobStarted: {'identifier': 'nova_bringup'}
+[0.013925] (nova_description) JobStarted: {'identifier': 'nova_description'}
+[0.018084] (nova_gazebo) JobStarted: {'identifier': 'nova_gazebo'}
+[0.024347] (nova_bringup) JobProgress: {'identifier': 'nova_bringup', 'progress': 'cmake'}
+[0.026126] (nova_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/toni/nova_ws/src/nova_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_bringup'], 'cwd': '/home/toni/nova_ws/build/nova_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'toni'), ('GIT_ASKPASS', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/toni/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/toni'), ('OLDPWD', '/home/toni/nova_ws/src/nova_gazebo/worlds'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-bac69628-40c8-48e6-9863-30e8da82ebbb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toni/sam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toni'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/897_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/home/toni/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tonit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tonit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/tonit/Downloads/__FPGA/gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/snap/bin:/home/toni/.local/bin:/home/toni/.local/bin'), ('XDG_RUNTIME_DIR', '/home/toni/arm_ws/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/home/toni/arm_ws/vscode-git-2392bbba66.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_navigation:/home/toni/sam_ws/install/sam_bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/toni/nova_ws/build/nova_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toni/sam_ws/install/sam_bot_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.030083] (nova_description) JobProgress: {'identifier': 'nova_description', 'progress': 'cmake'}
+[0.032374] (nova_description) Command: {'cmd': ['/usr/bin/cmake', '/home/toni/nova_ws/src/nova_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_description'], 'cwd': '/home/toni/nova_ws/build/nova_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'toni'), ('GIT_ASKPASS', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/toni/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/toni'), ('OLDPWD', '/home/toni/nova_ws/src/nova_gazebo/worlds'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-bac69628-40c8-48e6-9863-30e8da82ebbb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toni/sam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toni'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/897_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/home/toni/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tonit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tonit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/tonit/Downloads/__FPGA/gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/snap/bin:/home/toni/.local/bin:/home/toni/.local/bin'), ('XDG_RUNTIME_DIR', '/home/toni/arm_ws/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/home/toni/arm_ws/vscode-git-2392bbba66.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_navigation:/home/toni/sam_ws/install/sam_bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/toni/nova_ws/build/nova_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toni/sam_ws/install/sam_bot_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.037276] (nova_gazebo) JobProgress: {'identifier': 'nova_gazebo', 'progress': 'cmake'}
+[0.038919] (nova_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/toni/nova_ws/src/nova_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_gazebo'], 'cwd': '/home/toni/nova_ws/build/nova_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'toni'), ('GIT_ASKPASS', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/toni/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/toni'), ('OLDPWD', '/home/toni/nova_ws/src/nova_gazebo/worlds'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-bac69628-40c8-48e6-9863-30e8da82ebbb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toni/sam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toni'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/897_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/home/toni/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tonit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tonit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/tonit/Downloads/__FPGA/gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/snap/bin:/home/toni/.local/bin:/home/toni/.local/bin'), ('XDG_RUNTIME_DIR', '/home/toni/arm_ws/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/home/toni/arm_ws/vscode-git-2392bbba66.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_navigation:/home/toni/sam_ws/install/sam_bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/toni/nova_ws/build/nova_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toni/sam_ws/install/sam_bot_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_description'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.100076] (-) TimerEvent: {}
+[0.200446] (-) TimerEvent: {}
+[0.300828] (-) TimerEvent: {}
+[0.401203] (-) TimerEvent: {}
+[0.449207] (nova_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.449609] (nova_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.449963] (nova_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501332] (-) TimerEvent: {}
+[0.601728] (-) TimerEvent: {}
+[0.702255] (-) TimerEvent: {}
+[0.802692] (-) TimerEvent: {}
+[0.903091] (-) TimerEvent: {}
+[1.003460] (-) TimerEvent: {}
+[1.103895] (-) TimerEvent: {}
+[1.111972] (nova_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.112337] (nova_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.112739] (nova_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.204002] (-) TimerEvent: {}
+[1.304339] (-) TimerEvent: {}
+[1.404720] (-) TimerEvent: {}
+[1.425251] (nova_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.425558] (nova_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504850] (-) TimerEvent: {}
+[1.552308] (nova_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.586449] (nova_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.586587] (nova_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.592985] (nova_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.593241] (nova_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.593734] (nova_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.593822] (nova_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.594587] (nova_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.594679] (nova_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.599191] (nova_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.599289] (nova_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.604988] (-) TimerEvent: {}
+[1.698462] (nova_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.704789] (nova_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.705065] (nova_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.705146] (-) TimerEvent: {}
+[1.705376] (nova_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.707885] (nova_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.738120] (nova_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.738266] (nova_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.744835] (nova_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.745059] (nova_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.745319] (nova_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.745565] (nova_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.745649] (nova_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.745965] (nova_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.766401] (nova_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.766620] (nova_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.805302] (-) TimerEvent: {}
+[1.869885] (nova_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.880749] (nova_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.881114] (nova_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.881810] (nova_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.885937] (nova_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.905442] (-) TimerEvent: {}
+[1.919278] (nova_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.921930] (nova_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.002129] (nova_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.005601] (-) TimerEvent: {}
+[2.020006] (nova_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.067363] (nova_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.072497] (nova_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.075669] (nova_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.105801] (-) TimerEvent: {}
+[2.107846] (nova_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.166945] (nova_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.168373] (nova_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.169394] (nova_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.171529] (nova_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.173557] (nova_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.176707] (nova_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[2.178128] (nova_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/toni/nova_ws/build/nova_bringup\n'}
+[2.181619] (nova_bringup) CommandEnded: {'returncode': 0}
+[2.182171] (nova_bringup) JobProgress: {'identifier': 'nova_bringup', 'progress': 'build'}
+[2.183348] (nova_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toni/nova_ws/build/nova_bringup', '--', '-j12', '-l12'], 'cwd': '/home/toni/nova_ws/build/nova_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'toni'), ('GIT_ASKPASS', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/toni/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/toni'), ('OLDPWD', '/home/toni/nova_ws/src/nova_gazebo/worlds'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-bac69628-40c8-48e6-9863-30e8da82ebbb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toni/sam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toni'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/897_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/home/toni/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tonit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tonit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/tonit/Downloads/__FPGA/gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/snap/bin:/home/toni/.local/bin:/home/toni/.local/bin'), ('XDG_RUNTIME_DIR', '/home/toni/arm_ws/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/home/toni/arm_ws/vscode-git-2392bbba66.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_navigation:/home/toni/sam_ws/install/sam_bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/toni/nova_ws/build/nova_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toni/sam_ws/install/sam_bot_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[2.186424] (nova_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.187673] (nova_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.189158] (nova_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.192475] (nova_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.193924] (nova_description) StdoutLine: {'line': b'-- Build files have been written to: /home/toni/nova_ws/build/nova_description\n'}
+[2.197651] (nova_description) CommandEnded: {'returncode': 0}
+[2.198906] (nova_description) JobProgress: {'identifier': 'nova_description', 'progress': 'build'}
+[2.198958] (nova_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toni/nova_ws/build/nova_description', '--', '-j12', '-l12'], 'cwd': '/home/toni/nova_ws/build/nova_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'toni'), ('GIT_ASKPASS', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/toni/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/toni'), ('OLDPWD', '/home/toni/nova_ws/src/nova_gazebo/worlds'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-bac69628-40c8-48e6-9863-30e8da82ebbb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toni/sam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toni'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/897_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/home/toni/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tonit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tonit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/tonit/Downloads/__FPGA/gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/snap/bin:/home/toni/.local/bin:/home/toni/.local/bin'), ('XDG_RUNTIME_DIR', '/home/toni/arm_ws/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/home/toni/arm_ws/vscode-git-2392bbba66.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_navigation:/home/toni/sam_ws/install/sam_bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/toni/nova_ws/build/nova_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toni/sam_ws/install/sam_bot_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[2.205953] (-) TimerEvent: {}
+[2.216047] (nova_bringup) CommandEnded: {'returncode': 0}
+[2.216807] (nova_bringup) JobProgress: {'identifier': 'nova_bringup', 'progress': 'install'}
+[2.226634] (nova_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/toni/nova_ws/build/nova_bringup'], 'cwd': '/home/toni/nova_ws/build/nova_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'toni'), ('GIT_ASKPASS', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/toni/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/toni'), ('OLDPWD', '/home/toni/nova_ws/src/nova_gazebo/worlds'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-bac69628-40c8-48e6-9863-30e8da82ebbb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toni/sam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toni'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/897_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/home/toni/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tonit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tonit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/tonit/Downloads/__FPGA/gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/snap/bin:/home/toni/.local/bin:/home/toni/.local/bin'), ('XDG_RUNTIME_DIR', '/home/toni/arm_ws/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/home/toni/arm_ws/vscode-git-2392bbba66.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_navigation:/home/toni/sam_ws/install/sam_bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/toni/nova_ws/build/nova_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toni/sam_ws/install/sam_bot_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[2.231505] (nova_description) CommandEnded: {'returncode': 0}
+[2.232070] (nova_description) JobProgress: {'identifier': 'nova_description', 'progress': 'install'}
+[2.232971] (nova_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/toni/nova_ws/build/nova_description'], 'cwd': '/home/toni/nova_ws/build/nova_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'toni'), ('GIT_ASKPASS', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/toni/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/toni'), ('OLDPWD', '/home/toni/nova_ws/src/nova_gazebo/worlds'), ('TERM_PROGRAM_VERSION', '1.98.0'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-bac69628-40c8-48e6-9863-30e8da82ebbb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toni/sam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toni'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/897_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:/home/toni/ros2_ws/src/aws-robomaker-small-warehouse-world/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/toni/.vscode-server/bin/6609ac3d66f4eade5cf376d1cb76f13985724bcb/bin/remote-cli:/home/toni/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/tonit/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Tailscale/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/tonit/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tonit/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/tonit/Downloads/__FPGA/gcc-arm-10.3-2021.07-mingw-w64-i686-arm-none-linux-gnueabihf/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/bin:/mnt/d/OpenCV/opencv/build/x64/vc16/lib:/snap/bin:/home/toni/.local/bin:/home/toni/.local/bin'), ('XDG_RUNTIME_DIR', '/home/toni/arm_ws/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/home/toni/arm_ws/vscode-git-2392bbba66.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_navigation:/home/toni/sam_ws/install/sam_bot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/toni/nova_ws/build/nova_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toni/sam_ws/install/sam_bot_navigation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[2.234021] (nova_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.234720] (nova_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.235749] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/ament_index/resource_index/package_run_dependencies/nova_bringup\n'}
+[2.239113] (nova_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.239477] (nova_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.240507] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/urdf/nova_camera.urdf\n'}
+[2.242735] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/ament_index/resource_index/parent_prefix_path/nova_bringup\n'}
+[2.247110] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/urdf/nova_depth.urdf\n'}
+[2.249488] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/ament_prefix_path.sh\n'}
+[2.253898] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/urdf/nova_gps.urdf\n'}
+[2.257723] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/ament_prefix_path.dsv\n'}
+[2.260744] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/ament_index/resource_index/package_run_dependencies/nova_description\n'}
+[2.266685] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/path.sh\n'}
+[2.267433] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/ament_index/resource_index/parent_prefix_path/nova_description\n'}
+[2.273808] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/path.dsv\n'}
+[2.274041] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/ament_prefix_path.sh\n'}
+[2.280684] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/ament_prefix_path.dsv\n'}
+[2.280965] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.bash\n'}
+[2.287385] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/path.sh\n'}
+[2.287691] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.sh\n'}
+[2.294102] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.zsh\n'}
+[2.294438] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/environment/path.dsv\n'}
+[2.300730] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.bash\n'}
+[2.301167] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.dsv\n'}
+[2.306115] (-) TimerEvent: {}
+[2.307565] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/package.dsv\n'}
+[2.307825] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.sh\n'}
+[2.314345] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.zsh\n'}
+[2.314807] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/ament_index/resource_index/packages/nova_bringup\n'}
+[2.322405] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/local_setup.dsv\n'}
+[2.322727] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/cmake/nova_bringupConfig.cmake\n'}
+[2.329356] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/cmake/nova_bringupConfig-version.cmake\n'}
+[2.329494] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/package.dsv\n'}
+[2.334182] (nova_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.336398] (nova_bringup) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/package.xml\n'}
+[2.336791] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/ament_index/resource_index/packages/nova_description\n'}
+[2.343384] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/cmake/nova_descriptionConfig.cmake\n'}
+[2.344609] (nova_bringup) CommandEnded: {'returncode': 0}
+[2.346026] (nova_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.349964] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/cmake/nova_descriptionConfig-version.cmake\n'}
+[2.357550] (nova_description) StdoutLine: {'line': b'-- Symlinking: /home/toni/nova_ws/install/nova_description/share/nova_description/package.xml\n'}
+[2.365478] (nova_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.369051] (nova_bringup) JobEnded: {'identifier': 'nova_bringup', 'rc': 0}
+[2.371014] (nova_description) CommandEnded: {'returncode': 0}
+[2.381683] (nova_description) JobEnded: {'identifier': 'nova_description', 'rc': 0}
+[2.403363] (nova_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.406241] (-) TimerEvent: {}
+[2.435345] (nova_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.506392] (-) TimerEvent: {}
+[2.572414] (nova_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.580308] (nova_gazebo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.606618] (-) TimerEvent: {}
+[2.632521] (nova_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.655861] (nova_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.706849] (-) TimerEvent: {}
+[2.807265] (-) TimerEvent: {}
+[2.864129] (nova_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.864358] (nova_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.907474] (-) TimerEvent: {}
+[3.007843] (-) TimerEvent: {}
+[3.059819] (nova_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.060649] (nova_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.107996] (-) TimerEvent: {}
+[3.166318] (nova_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[3.190647] (nova_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[3.191767] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[3.208172] (-) TimerEvent: {}
+[3.214494] (nova_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[3.308314] (-) TimerEvent: {}
+[3.377613] (nova_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[3.408470] (-) TimerEvent: {}
+[3.417931] (nova_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[3.465846] (nova_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.504703] (nova_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[3.508617] (-) TimerEvent: {}
+[3.608907] (-) TimerEvent: {}
+[3.709244] (-) TimerEvent: {}
+[3.809536] (-) TimerEvent: {}
+[3.909851] (-) TimerEvent: {}
+[3.986386] (nova_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.000117] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.010125] (-) TimerEvent: {}
+[4.026979] (nova_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.034740] (nova_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[4.035491] (nova_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[4.041946] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[4.053953] (nova_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[4.080727] (nova_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[4.110269] (-) TimerEvent: {}
+[4.210626] (-) TimerEvent: {}
+[4.310928] (-) TimerEvent: {}
+[4.411261] (-) TimerEvent: {}
+[4.511593] (-) TimerEvent: {}
+[4.565845] (nova_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[4.574200] (nova_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[4.611738] (-) TimerEvent: {}
+[4.712045] (-) TimerEvent: {}
+[4.812352] (-) TimerEvent: {}
+[4.912692] (-) TimerEvent: {}
+[5.013021] (-) TimerEvent: {}
+[5.039031] (nova_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.039176] (nova_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.113127] (-) TimerEvent: {}
+[5.213466] (-) TimerEvent: {}
+[5.313849] (-) TimerEvent: {}
+[5.414172] (-) TimerEvent: {}
+[5.479241] (nova_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.479386] (nova_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.514314] (-) TimerEvent: {}
+[5.614601] (-) TimerEvent: {}
+[5.714880] (-) TimerEvent: {}
+[5.815213] (-) TimerEvent: {}
+[5.915495] (-) TimerEvent: {}
+[5.916430] (nova_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.916544] (nova_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[6.015618] (-) TimerEvent: {}
+[6.115890] (-) TimerEvent: {}
+[6.216210] (-) TimerEvent: {}
+[6.316492] (-) TimerEvent: {}
+[6.331823] (nova_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[6.332069] (nova_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[6.416637] (-) TimerEvent: {}
+[6.516924] (-) TimerEvent: {}
+[6.617237] (-) TimerEvent: {}
+[6.717507] (-) TimerEvent: {}
+[6.745746] (nova_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[6.745897] (nova_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[6.817620] (-) TimerEvent: {}
+[6.917890] (-) TimerEvent: {}
+[7.018151] (-) TimerEvent: {}
+[7.118455] (-) TimerEvent: {}
+[7.212382] (nova_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[7.218618] (-) TimerEvent: {}
+[7.318990] (-) TimerEvent: {}
+[7.419342] (-) TimerEvent: {}
+[7.519659] (-) TimerEvent: {}
+[7.620004] (-) TimerEvent: {}
+[7.720365] (-) TimerEvent: {}
+[7.820679] (-) TimerEvent: {}
+[7.921025] (-) TimerEvent: {}
+[8.021339] (-) TimerEvent: {}
+[8.121618] (-) TimerEvent: {}
+[8.221937] (-) TimerEvent: {}
+[8.322262] (-) TimerEvent: {}
+[8.422580] (-) TimerEvent: {}
+[8.522877] (-) TimerEvent: {}
+[8.623193] (-) TimerEvent: {}
+[8.723556] (-) TimerEvent: {}
+[8.823887] (-) TimerEvent: {}
+[8.924205] (-) TimerEvent: {}
+[9.024485] (-) TimerEvent: {}
+[9.124843] (-) TimerEvent: {}
+[9.225164] (-) TimerEvent: {}
+[9.325474] (-) TimerEvent: {}
+[9.425779] (-) TimerEvent: {}
+[9.526160] (-) TimerEvent: {}
+[9.626454] (-) TimerEvent: {}
+[9.726725] (-) TimerEvent: {}
+[9.827054] (-) TimerEvent: {}
+[9.927385] (-) TimerEvent: {}
+[10.027699] (-) TimerEvent: {}
+[10.128032] (-) TimerEvent: {}
+[10.228344] (-) TimerEvent: {}
+[10.328637] (-) TimerEvent: {}
+[10.428951] (-) TimerEvent: {}
+[10.529278] (-) TimerEvent: {}
+[10.629576] (-) TimerEvent: {}
+[10.729945] (-) TimerEvent: {}
+[10.830373] (-) TimerEvent: {}
+[10.930722] (-) TimerEvent: {}
+[11.031001] (-) TimerEvent: {}
+[11.131267] (-) TimerEvent: {}
+[11.231536] (-) TimerEvent: {}
+[11.331887] (-) TimerEvent: {}
+[11.432269] (-) TimerEvent: {}
+[11.532557] (-) TimerEvent: {}
+[11.632921] (-) TimerEvent: {}
+[11.733250] (-) TimerEvent: {}
+[11.833609] (-) TimerEvent: {}
+[11.933958] (-) TimerEvent: {}
+[12.034253] (-) TimerEvent: {}
+[12.134572] (-) TimerEvent: {}
+[12.234894] (-) TimerEvent: {}
+[12.335205] (-) TimerEvent: {}
+[12.435521] (-) TimerEvent: {}
+[12.535851] (-) TimerEvent: {}
+[12.636175] (-) TimerEvent: {}
+[12.736550] (-) TimerEvent: {}
+[12.836856] (-) TimerEvent: {}
+[12.937179] (-) TimerEvent: {}
+[13.037484] (-) TimerEvent: {}
+[13.137791] (-) TimerEvent: {}
+[13.238105] (-) TimerEvent: {}
+[13.338434] (-) TimerEvent: {}
+[13.438723] (-) TimerEvent: {}
+[13.539030] (-) TimerEvent: {}
+[13.639609] (-) TimerEvent: {}
+[13.739917] (-) TimerEvent: {}
+[13.840243] (-) TimerEvent: {}
+[13.940557] (-) TimerEvent: {}
+[14.040856] (-) TimerEvent: {}
+[14.141148] (-) TimerEvent: {}
+[14.241433] (-) TimerEvent: {}
+[14.341747] (-) TimerEvent: {}
+[14.442040] (-) TimerEvent: {}
+[14.542326] (-) TimerEvent: {}
+[14.642620] (-) TimerEvent: {}
+[14.742894] (-) TimerEvent: {}
+[14.843179] (-) TimerEvent: {}
+[14.943516] (-) TimerEvent: {}
+[15.043815] (-) TimerEvent: {}
+[15.144156] (-) TimerEvent: {}
+[15.244632] (-) TimerEvent: {}
+[15.344987] (-) TimerEvent: {}
+[15.445343] (-) TimerEvent: {}
+[15.545668] (-) TimerEvent: {}
+[15.645951] (-) TimerEvent: {}
+[15.746236] (-) TimerEvent: {}
+[15.846516] (-) TimerEvent: {}
+[15.946813] (-) TimerEvent: {}
+[16.047155] (-) TimerEvent: {}
+[16.147542] (-) TimerEvent: {}
+[16.248029] (-) TimerEvent: {}
+[16.348385] (-) TimerEvent: {}
+[16.448708] (-) TimerEvent: {}
+[16.549033] (-) TimerEvent: {}
+[16.649379] (-) TimerEvent: {}
+[16.749699] (-) TimerEvent: {}
+[16.850011] (-) TimerEvent: {}
+[16.950291] (-) TimerEvent: {}
+[17.050607] (-) TimerEvent: {}
+[17.150930] (-) TimerEvent: {}
+[17.251254] (-) TimerEvent: {}
+[17.351548] (-) TimerEvent: {}
+[17.451852] (-) TimerEvent: {}
+[17.552152] (-) TimerEvent: {}
+[17.652450] (-) TimerEvent: {}
+[17.752772] (-) TimerEvent: {}
+[17.853095] (-) TimerEvent: {}
+[17.953426] (-) TimerEvent: {}
+[18.053752] (-) TimerEvent: {}
+[18.154073] (-) TimerEvent: {}
+[18.254403] (-) TimerEvent: {}
+[18.354752] (-) TimerEvent: {}
+[18.455208] (-) TimerEvent: {}
+[18.555500] (-) TimerEvent: {}
+[18.655812] (-) TimerEvent: {}
+[18.756110] (-) TimerEvent: {}
+[18.856383] (-) TimerEvent: {}
+[18.956699] (-) TimerEvent: {}
+[19.057009] (-) TimerEvent: {}
+[19.157306] (-) TimerEvent: {}
+[19.257616] (-) TimerEvent: {}
+[19.357959] (-) TimerEvent: {}
+[19.458248] (-) TimerEvent: {}
+[19.558612] (-) TimerEvent: {}
+[19.659009] (-) TimerEvent: {}
+[19.759438] (-) TimerEvent: {}
+[19.859816] (-) TimerEvent: {}
+[19.960101] (-) TimerEvent: {}
+[20.060447] (-) TimerEvent: {}
+[20.160776] (-) TimerEvent: {}
+[20.261061] (-) TimerEvent: {}
+[20.361330] (-) TimerEvent: {}
+[20.461630] (-) TimerEvent: {}
+[20.561947] (-) TimerEvent: {}
+[20.662289] (-) TimerEvent: {}
+[20.762752] (-) TimerEvent: {}
+[20.863150] (-) TimerEvent: {}
+[20.963456] (-) TimerEvent: {}
+[21.063750] (-) TimerEvent: {}
+[21.164032] (-) TimerEvent: {}
+[21.264378] (-) TimerEvent: {}
+[21.364656] (-) TimerEvent: {}
+[21.464959] (-) TimerEvent: {}
+[21.565283] (-) TimerEvent: {}
+[21.665573] (-) TimerEvent: {}
+[21.765835] (-) TimerEvent: {}
+[21.866171] (-) TimerEvent: {}
+[21.966493] (-) TimerEvent: {}
+[22.066814] (-) TimerEvent: {}
+[22.167117] (-) TimerEvent: {}
+[22.267395] (-) TimerEvent: {}
+[22.367722] (-) TimerEvent: {}
+[22.468007] (-) TimerEvent: {}
+[22.568268] (-) TimerEvent: {}
+[22.668572] (-) TimerEvent: {}
+[22.768885] (-) TimerEvent: {}
+[22.869319] (-) TimerEvent: {}
+[22.969622] (-) TimerEvent: {}
+[23.069950] (-) TimerEvent: {}
+[23.170292] (-) TimerEvent: {}
+[23.270617] (-) TimerEvent: {}
+[23.370935] (-) TimerEvent: {}
+[23.471343] (-) TimerEvent: {}
+[23.571641] (-) TimerEvent: {}
+[23.671977] (-) TimerEvent: {}
+[23.772256] (-) TimerEvent: {}
+[23.872666] (-) TimerEvent: {}
+[23.972987] (-) TimerEvent: {}
+[24.073390] (-) TimerEvent: {}
+[24.173817] (-) TimerEvent: {}
+[24.274208] (-) TimerEvent: {}
+[24.374564] (-) TimerEvent: {}
+[24.474840] (-) TimerEvent: {}
+[24.575154] (-) TimerEvent: {}
+[24.675449] (-) TimerEvent: {}
+[24.775776] (-) TimerEvent: {}
+[24.876100] (-) TimerEvent: {}
+[24.976418] (-) TimerEvent: {}
+[25.076794] (-) TimerEvent: {}
+[25.177119] (-) TimerEvent: {}
+[25.277405] (-) TimerEvent: {}
+[25.377683] (-) TimerEvent: {}
+[25.478007] (-) TimerEvent: {}
+[25.578322] (-) TimerEvent: {}
+[25.678639] (-) TimerEvent: {}
+[25.778904] (-) TimerEvent: {}
+[25.879191] (-) TimerEvent: {}
+[25.979517] (-) TimerEvent: {}
+[26.079841] (-) TimerEvent: {}
+[26.180208] (-) TimerEvent: {}
+[26.280533] (-) TimerEvent: {}
+[26.380844] (-) TimerEvent: {}
+[26.481151] (-) TimerEvent: {}
+[26.581446] (-) TimerEvent: {}
+[26.681712] (-) TimerEvent: {}
+[26.782053] (-) TimerEvent: {}
+[26.882364] (-) TimerEvent: {}
+[26.982674] (-) TimerEvent: {}
+[27.082977] (-) TimerEvent: {}
+[27.183301] (-) TimerEvent: {}
+[27.283649] (-) TimerEvent: {}
+[27.383957] (-) TimerEvent: {}
+[27.484294] (-) TimerEvent: {}
+[27.584561] (-) TimerEvent: {}
+[27.684872] (-) TimerEvent: {}
+[27.785175] (-) TimerEvent: {}
+[27.885448] (-) TimerEvent: {}
+[27.985769] (-) TimerEvent: {}
+[28.086107] (-) TimerEvent: {}
+[28.186417] (-) TimerEvent: {}
+[28.286717] (-) TimerEvent: {}
+[28.387030] (-) TimerEvent: {}
+[28.487361] (-) TimerEvent: {}
+[28.587777] (-) TimerEvent: {}
+[28.688123] (-) TimerEvent: {}
+[28.788417] (-) TimerEvent: {}
+[28.888744] (-) TimerEvent: {}
+[28.989076] (-) TimerEvent: {}
+[29.089437] (-) TimerEvent: {}
+[29.189724] (-) TimerEvent: {}
+[29.290054] (-) TimerEvent: {}
+[29.390373] (-) TimerEvent: {}
+[29.490672] (-) TimerEvent: {}
+[29.591026] (-) TimerEvent: {}
+[29.691391] (-) TimerEvent: {}
+[29.791815] (-) TimerEvent: {}
+[29.892136] (-) TimerEvent: {}
+[29.992505] (-) TimerEvent: {}
+[30.092803] (-) TimerEvent: {}
+[30.193183] (-) TimerEvent: {}
+[30.293514] (-) TimerEvent: {}
+[30.393825] (-) TimerEvent: {}
+[30.494140] (-) TimerEvent: {}
+[30.594471] (-) TimerEvent: {}
+[30.694743] (-) TimerEvent: {}
+[30.696441] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[30.701463] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[30.702046] (nova_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[30.794893] (-) TimerEvent: {}
+[30.895176] (-) TimerEvent: {}
+[30.995477] (-) TimerEvent: {}
+[31.095765] (-) TimerEvent: {}
+[31.196065] (-) TimerEvent: {}
+[31.296330] (-) TimerEvent: {}
+[31.396601] (-) TimerEvent: {}
+[31.496897] (-) TimerEvent: {}
+[31.597166] (-) TimerEvent: {}
+[31.697490] (-) TimerEvent: {}
+[31.797840] (-) TimerEvent: {}
+[31.898118] (-) TimerEvent: {}
+[31.998388] (-) TimerEvent: {}
+[32.098655] (-) TimerEvent: {}
+[32.168536] (nova_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[32.198798] (-) TimerEvent: {}
+[32.299072] (-) TimerEvent: {}
+[32.399350] (-) TimerEvent: {}
+[32.499687] (-) TimerEvent: {}
+[32.599994] (-) TimerEvent: {}
+[32.700384] (-) TimerEvent: {}
+[32.800717] (-) TimerEvent: {}
+[32.901003] (-) TimerEvent: {}
+[33.001314] (-) TimerEvent: {}
+[33.101622] (-) TimerEvent: {}
+[33.202026] (-) TimerEvent: {}
+[33.302472] (-) TimerEvent: {}
+[33.402764] (-) TimerEvent: {}
+[33.503051] (-) TimerEvent: {}
+[33.528219] (nova_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[33.532431] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[33.550722] (nova_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[33.578406] (nova_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[33.603180] (-) TimerEvent: {}
+[33.633381] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[33.645438] (nova_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[33.670434] (nova_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[33.675091] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[33.675561] (nova_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[33.703351] (-) TimerEvent: {}
+[33.803661] (-) TimerEvent: {}
+[33.903978] (-) TimerEvent: {}
+[34.004354] (-) TimerEvent: {}
+[34.104646] (-) TimerEvent: {}
+[34.204981] (-) TimerEvent: {}
+[34.305280] (-) TimerEvent: {}
+[34.405645] (-) TimerEvent: {}
+[34.505955] (-) TimerEvent: {}
+[34.606304] (-) TimerEvent: {}
+[34.706614] (-) TimerEvent: {}
+[34.806923] (-) TimerEvent: {}
+[34.907195] (-) TimerEvent: {}
+[35.007491] (-) TimerEvent: {}
+[35.106374] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[35.107643] (-) TimerEvent: {}
+[35.111166] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[35.122151] (nova_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[35.149514] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[35.154698] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[35.155206] (nova_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[35.207963] (-) TimerEvent: {}
+[35.226454] (nova_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[35.272332] (nova_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[35.273589] (nova_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[35.308089] (-) TimerEvent: {}
+[35.378170] (nova_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[35.380115] (nova_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[35.384977] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[35.385570] (nova_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[35.385955] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[35.392375] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[35.393008] (nova_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[35.408223] (-) TimerEvent: {}
+[35.508511] (-) TimerEvent: {}
+[35.608813] (-) TimerEvent: {}
+[35.709088] (-) TimerEvent: {}
+[35.809393] (-) TimerEvent: {}
+[35.909713] (-) TimerEvent: {}
+[36.010015] (-) TimerEvent: {}
+[36.110401] (-) TimerEvent: {}
+[36.210820] (-) TimerEvent: {}
+[36.311158] (-) TimerEvent: {}
+[36.411480] (-) TimerEvent: {}
+[36.511788] (-) TimerEvent: {}
+[36.612090] (-) TimerEvent: {}
+[36.712397] (-) TimerEvent: {}
+[36.812724] (-) TimerEvent: {}
+[36.913014] (-) TimerEvent: {}
+[37.013289] (-) TimerEvent: {}
+[37.083360] (nova_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[37.095979] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[37.107870] (nova_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[37.113425] (-) TimerEvent: {}
+[37.134444] (nova_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[37.140639] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[37.151618] (nova_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[37.177098] (nova_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[37.177509] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[37.177910] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[37.178288] (nova_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[37.185009] (nova_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[37.185290] (nova_gazebo) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[37.195892] (nova_gazebo) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[37.213564] (-) TimerEvent: {}
+[37.226717] (nova_gazebo) StdoutLine: {'line': b'-- Found ros_gz_sim: 0.244.16 (/opt/ros/humble/share/ros_gz_sim/cmake)\n'}
+[37.231335] (nova_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[37.278617] (nova_gazebo) StderrLine: {'line': b"Error parsing '/home/toni/nova_ws/src/nova_gazebo/package.xml':\n"}
+[37.313706] (-) TimerEvent: {}
+[37.367275] (nova_gazebo) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[37.367451] (nova_gazebo) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[37.367668] (nova_gazebo) StderrLine: {'line': b'    main()\n'}
+[37.367734] (nova_gazebo) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[37.367791] (nova_gazebo) StderrLine: {'line': b'    raise e\n'}
+[37.367843] (nova_gazebo) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[37.367893] (nova_gazebo) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[37.367943] (nova_gazebo) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[37.370206] (nova_gazebo) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[37.370384] (nova_gazebo) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/toni/nova_ws/src/nova_gazebo/package.xml':\n"}
+[37.370454] (nova_gazebo) StderrLine: {'line': b'Error(s):\n'}
+[37.370511] (nova_gazebo) StderrLine: {'line': b"- The generic dependency on 'gazebo_ros' is redundant with: exec_depend\n"}
+[37.370600] (nova_gazebo) StderrLine: {'line': b"- The generic dependency on 'ros_gz_sim' is redundant with: exec_depend\n"}
+[37.382194] (nova_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[37.382335] (nova_gazebo) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[37.382402] (nova_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[37.382493] (nova_gazebo) StderrLine: {'line': b'  /home/toni/nova_ws/src/nova_gazebo/package.xml\n'}
+[37.382676] (nova_gazebo) StderrLine: {'line': b'  /home/toni/nova_ws/build/nova_gazebo/ament_cmake_core/package.cmake)\n'}
+[37.382736] (nova_gazebo) StderrLine: {'line': b'  returned error code 1\n'}
+[37.382789] (nova_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[37.382893] (nova_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[37.383004] (nova_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[37.383103] (nova_gazebo) StderrLine: {'line': b'  CMakeLists.txt:31 (ament_lint_auto_find_test_dependencies)\n'}
+[37.383159] (nova_gazebo) StderrLine: {'line': b'\n'}
+[37.383211] (nova_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[37.383261] (nova_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[37.383325] (nova_gazebo) StdoutLine: {'line': b'See also "/home/toni/nova_ws/build/nova_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[37.395552] (nova_gazebo) CommandEnded: {'returncode': 1}
+[37.396576] (nova_gazebo) JobEnded: {'identifier': 'nova_gazebo', 'rc': 1}
+[37.407424] (-) EventReactorShutdown: {}

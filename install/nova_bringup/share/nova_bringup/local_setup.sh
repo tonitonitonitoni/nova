@@ -1,0 +1,1 @@
+/home/toni/nova_ws/build/nova_bringup/ament_cmake_environment_hooks/local_setup.sh

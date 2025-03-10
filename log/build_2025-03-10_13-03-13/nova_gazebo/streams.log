@@ -1,0 +1,95 @@
+[0.061s] Invoking command in '/home/toni/nova_ws/build/nova_gazebo': AMENT_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake /home/toni/nova_ws/src/nova_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_gazebo
+[0.071s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.188s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.196s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.402s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.404s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.420s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.468s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.487s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.535s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.563s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.589s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.590s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.595s] -- Searching for dependencies of ignition-math6
+[0.596s] -- Looking for OGRE...
+[0.601s] -- Found Ogre Ghadamon (1.9.0)
+[0.601s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.609s] -- Looking for OGRE_Paging...
+[0.610s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.610s] -- Looking for OGRE_Terrain...
+[0.610s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.610s] -- Looking for OGRE_Property...
+[0.610s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.610s] -- Looking for OGRE_RTShaderSystem...
+[0.610s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.610s] -- Looking for OGRE_Volume...
+[0.610s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.610s] -- Looking for OGRE_Overlay...
+[0.610s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[25.806s] -- Looking for ignition-math6 -- found version 6.15.1
+[25.807s] -- Looking for ignition-transport8 -- found version 8.2.1
+[25.807s] -- Searching for dependencies of ignition-transport8
+[27.576s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[29.855s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[29.862s] -- Checking for module 'libzmq >= 4'
+[29.882s] --   Found libzmq , version 4.3.4
+[29.941s] -- Checking for module 'uuid'
+[29.960s] --   Found uuid, version 2.37.2
+[30.005s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[30.005s] -- Searching for dependencies of ignition-msgs5
+[32.879s] -- Looking for ignition-math6 -- found version 6.15.1
+[32.886s] -- Checking for module 'tinyxml2'
+[32.904s] --   Found tinyxml2, version 9.0.0
+[32.948s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[32.948s] -- Looking for ignition-common3 -- found version 3.14.0
+[32.949s] -- Searching for dependencies of ignition-common3
+[32.949s] -- Looking for dlfcn.h - found
+[32.949s] -- Looking for libdl - found
+[33.121s] -- Searching for <ignition-common3> component [graphics]
+[33.121s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[33.122s] -- Searching for dependencies of ignition-common3-graphics
+[33.123s] -- Looking for ignition-math6 -- found version 6.15.1
+[33.126s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[33.127s] -- Searching for dependencies of ignition-fuel_tools4
+[36.381s] -- Checking for module 'jsoncpp'
+[36.403s] --   Found jsoncpp, version 1.9.5
+[36.465s] -- Checking for module 'libzip'
+[36.486s] --   Found libzip, version 1.7.3
+[36.536s] -- Looking for ignition-common3 -- found version 3.14.0
+[36.536s] -- Looking for ignition-math6 -- found version 6.15.1
+[36.537s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[36.540s] -- Gazebo version: 11.10
+[36.542s] -- Found ros_gz_sim: 0.244.16 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[36.546s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[36.687s] -- Added test 'lint_cmake' to check CMake code style
+[36.689s] -- Added test 'xmllint' to check XML markup files
+[36.692s] -- Configuring done
+[36.704s] -- Generating done
+[36.708s] -- Build files have been written to: /home/toni/nova_ws/build/nova_gazebo
+[36.722s] Invoked command in '/home/toni/nova_ws/build/nova_gazebo' returned '0': AMENT_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake /home/toni/nova_ws/src/nova_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_gazebo
+[36.726s] Invoking command in '/home/toni/nova_ws/build/nova_gazebo': AMENT_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_gazebo -- -j12 -l12
+[36.785s] Invoked command in '/home/toni/nova_ws/build/nova_gazebo' returned '0': AMENT_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_gazebo -- -j12 -l12
+[36.788s] Invoking command in '/home/toni/nova_ws/build/nova_gazebo': AMENT_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_gazebo
+[36.798s] -- Install configuration: ""
+[36.798s] -- Execute custom install script
+[36.800s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/worlds/my_world.sdf
+[36.814s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/ament_index/resource_index/package_run_dependencies/nova_gazebo
+[36.825s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/ament_index/resource_index/parent_prefix_path/nova_gazebo
+[36.837s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/environment/ament_prefix_path.sh
+[36.850s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/environment/ament_prefix_path.dsv
+[36.862s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/environment/path.sh
+[36.873s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/environment/path.dsv
+[36.885s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/local_setup.bash
+[36.896s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/local_setup.sh
+[36.907s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/local_setup.zsh
+[36.918s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/local_setup.dsv
+[36.930s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/package.dsv
+[36.941s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/ament_index/resource_index/packages/nova_gazebo
+[36.953s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/cmake/nova_gazeboConfig.cmake
+[36.964s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/cmake/nova_gazeboConfig-version.cmake
+[36.976s] -- Symlinking: /home/toni/nova_ws/install/nova_gazebo/share/nova_gazebo/package.xml
+[36.989s] Invoked command in '/home/toni/nova_ws/build/nova_gazebo' returned '0': AMENT_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/nova_ws/install/nova_description:/home/toni/sam_ws/install/sam_bot_description:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_gazebo

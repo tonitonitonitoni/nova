@@ -1,0 +1,1 @@
+/home/toni/nova_ws/build/nova_gazebo/ament_cmake_core/nova_gazeboConfig.cmake

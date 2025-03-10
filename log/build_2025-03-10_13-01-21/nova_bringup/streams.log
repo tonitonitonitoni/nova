@@ -1,0 +1,46 @@
+[0.026s] Invoking command in '/home/toni/nova_ws/build/nova_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake /home/toni/nova_ws/src/nova_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_bringup
+[0.449s] -- The C compiler identification is GNU 11.4.0
+[1.112s] -- The CXX compiler identification is GNU 11.4.0
+[1.425s] -- Detecting C compiler ABI info
+[1.585s] -- Detecting C compiler ABI info - done
+[1.592s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.593s] -- Detecting C compile features
+[1.594s] -- Detecting C compile features - done
+[1.598s] -- Detecting CXX compiler ABI info
+[1.737s] -- Detecting CXX compiler ABI info - done
+[1.744s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.744s] -- Detecting CXX compile features
+[1.744s] -- Detecting CXX compile features - done
+[1.766s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.921s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.001s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.066s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.166s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.167s] -- Added test 'lint_cmake' to check CMake code style
+[2.168s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.170s] -- Added test 'xmllint' to check XML markup files
+[2.173s] -- Configuring done
+[2.176s] -- Generating done
+[2.177s] -- Build files have been written to: /home/toni/nova_ws/build/nova_bringup
+[2.181s] Invoked command in '/home/toni/nova_ws/build/nova_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake /home/toni/nova_ws/src/nova_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/toni/nova_ws/install/nova_bringup
+[2.182s] Invoking command in '/home/toni/nova_ws/build/nova_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_bringup -- -j12 -l12
+[2.215s] Invoked command in '/home/toni/nova_ws/build/nova_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_bringup -- -j12 -l12
+[2.226s] Invoking command in '/home/toni/nova_ws/build/nova_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_bringup
+[2.233s] -- Install configuration: ""
+[2.234s] -- Execute custom install script
+[2.235s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/ament_index/resource_index/package_run_dependencies/nova_bringup
+[2.242s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/ament_index/resource_index/parent_prefix_path/nova_bringup
+[2.248s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/ament_prefix_path.sh
+[2.257s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/ament_prefix_path.dsv
+[2.266s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/path.sh
+[2.273s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/environment/path.dsv
+[2.280s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.bash
+[2.287s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.sh
+[2.293s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.zsh
+[2.300s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/local_setup.dsv
+[2.307s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/package.dsv
+[2.314s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/ament_index/resource_index/packages/nova_bringup
+[2.322s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/cmake/nova_bringupConfig.cmake
+[2.328s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/cmake/nova_bringupConfig-version.cmake
+[2.335s] -- Symlinking: /home/toni/nova_ws/install/nova_bringup/share/nova_bringup/package.xml
+[2.344s] Invoked command in '/home/toni/nova_ws/build/nova_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_bringup

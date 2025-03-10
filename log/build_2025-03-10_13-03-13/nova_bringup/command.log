@@ -1,0 +1,4 @@
+Invoking command in '/home/toni/nova_ws/build/nova_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_bringup -- -j12 -l12
+Invoked command in '/home/toni/nova_ws/build/nova_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --build /home/toni/nova_ws/build/nova_bringup -- -j12 -l12
+Invoking command in '/home/toni/nova_ws/build/nova_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_bringup
+Invoked command in '/home/toni/nova_ws/build/nova_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/toni/sam_ws/install/sam_bot_navigation:/opt/ros/humble /usr/bin/cmake --install /home/toni/nova_ws/build/nova_bringup
